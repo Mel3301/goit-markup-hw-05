@@ -106,12 +106,13 @@
           height: 40px;
           width: 264px;
           border-radius: 4px;
-          filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.15));
           background-color: transparent;
           font-size: 12px;
           line-height: 1.5;
           letter-spacing: 0.04em;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           padding-left: 16px;
+          border: 1px solid #ffffff;
           color: #ffffff;
           &::placeholder {
             color: #ffffff;
@@ -124,6 +125,7 @@
           height: 40px;
           justify-content: center;
           align-items: center;
+          border: none;
           font-family: "Roboto", sans-serif;
           font-weight: 500;
           line-height: 1.5;
@@ -141,6 +143,7 @@
 
           .footer-submit-icon {
             margin-left: 16px;
+            fill: white;
           }
         }
       }
