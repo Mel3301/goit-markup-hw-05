@@ -763,11 +763,11 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-span {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-span {
   background-color: #404bbf;
   border: none;
 }
-.modal-checkbox-input:checked + .modal-checkbox-span .modal-form-checkbox-item {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-span .modal-form-checkbox-item {
   fill: #f4f4fd;
 }
 
