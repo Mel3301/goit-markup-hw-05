@@ -671,6 +671,7 @@ body {
   justify-content: center;
   fill: transparent;
 }
+
 .modal-checkbox-input:checked + .modal-checkbox-span {
   background-color: $pressed-state-color;
   border: none;
