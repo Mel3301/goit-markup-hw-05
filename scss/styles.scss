@@ -580,7 +580,7 @@ body {
   display: block;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
 }
@@ -668,6 +668,14 @@ body {
   background-color: $pressed-state-color;
   border: none;
   fill: $white-background-color;
+}
+
+.modal-form-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
 }
 
 // * Кнопка \\\\\\\\\\
