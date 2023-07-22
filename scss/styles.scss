@@ -673,9 +673,9 @@ body {
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-span {
-  background-color: $pressed-state-color;
+  background-color: #404bbf;
   border: none;
-  fill: $white-background-color;
+  fill: #f4f4fd;
 }
 
 // * Кнопка \\\\\\\\\\
