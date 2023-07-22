@@ -675,7 +675,10 @@ body {
 .modal-checkbox-input:checked + .modal-checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+
+  .modal-form-checkbox-item {
+    fill: #f4f4fd;
+  }
 }
 
 // * Кнопка \\\\\\\\\\
